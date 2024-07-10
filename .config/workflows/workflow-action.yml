@@ -1,4 +1,4 @@
-65name: build-test-deploy_environments
+name: build-test-deploy_environments
 on:
   workflow_dispatch:
   push:
