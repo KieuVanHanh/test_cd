@@ -1,7 +1,9 @@
-name: build-test-deploy_environments
+65name: build-test-deploy_environments
 on:
   workflow_dispatch:
-  
+  push:
+    branches: 
+      - master
 env:
   # Set Node.js Version
   NODE_VERSION: '18.x'
