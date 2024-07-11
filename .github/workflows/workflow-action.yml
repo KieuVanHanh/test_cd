@@ -6,7 +6,7 @@ on:
       - master
 env:
   # Set Node.js Version
-  NODE_VERSION: '18.x'
+  NODE_VERSION: 'lastest'
 
 jobs:
   install-build-test:
