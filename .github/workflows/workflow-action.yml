@@ -6,7 +6,7 @@ on:
       - master
 env:
   # Set Node.js Version
-  NODE_VERSION: 'lastest'
+  NODE_VERSION: 'latest'
 
 jobs:
   install-build-test:
